@@ -82,7 +82,7 @@
     </ul>
     <h2>Test Page</h2>
     <ul>
-      <li><a href="/page1">サンプル1ページ</a></li>
+      <li><router-link to="/page1">サンプル1ページ</router-link></li>
     </ul>
   </div>
 </template>
