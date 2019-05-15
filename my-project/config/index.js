@@ -48,7 +48,7 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../docs'), //@MEMO changed "dist" to "docs" because github Pages supported only "docs" directory.
+    assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '',   //@MEMO removed "/" because fiexed path can't work in githubPages
 
